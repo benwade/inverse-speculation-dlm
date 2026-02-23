@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Reproducible](https://img.shields.io/badge/reproducible-yes-brightgreen)
 ![Status](https://img.shields.io/badge/status-preprint-lightgrey)
-**Ben Wade** ·Independent Researcher · [ORCID 0009-0009-5857-7447](https://orcid.org/0009-0009-5857-7447)
+**Ben Wade** · Independent Researcher · [ORCID 0009-0009-5857-7447](https://orcid.org/0009-0009-5857-7447)
 
 📄 **[Read the paper](inverse_speculation.pdf)**
 
