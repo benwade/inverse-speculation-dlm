@@ -1,0 +1,438 @@
+{
+  "0.5B": [
+    {
+      "prompt": "What is the capital of France?",
+      "difficulty": "easy",
+      "alone_f1": 1.0,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        }
+      }
+    },
+    {
+      "prompt": "What does DNA stand for?",
+      "difficulty": "easy",
+      "alone_f1": 0.10638297872340426,
+      "forced": {
+        "10%": {
+          "f1": 0.22727272727272727,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that carries the genetic instructions for the development, functioning, and reproduction of all known living organisms. DNA is composed of four t"
+        },
+        "15%": {
+          "f1": 0.22727272727272727,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that carries the genetic instructions for the development, functioning, and reproduction of all known living organisms. DNA is composed of four t"
+        },
+        "25%": {
+          "f1": 0.22727272727272727,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that carries the genetic instructions for the development, functioning, and reproduction of all known living organisms. DNA is composed of four t"
+        },
+        "40%": {
+          "f1": 0.22727272727272727,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that carries the genetic instructions for the development, functioning, and reproduction of all known living organisms. DNA is composed of four t"
+        }
+      }
+    },
+    {
+      "prompt": "A farmer has chickens and cows. He counts 20 heads and 56 legs. How many chickens does he have?",
+      "difficulty": "hard",
+      "alone_f1": 0.12807881773399013,
+      "forced": {
+        "10%": {
+          "f1": 0.4931506849315069,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two pieces of information:\n\n1. The total number of heads is 20.\n2. The total number of legs"
+        },
+        "15%": {
+          "f1": 0.4931506849315069,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two pieces of information:\n\n1. The total number of heads is 20.\n2. The total number of legs"
+        },
+        "25%": {
+          "f1": 0.4931506849315069,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two pieces of information:\n\n1. The total number of heads is 20.\n2. The total number of legs"
+        },
+        "40%": {
+          "f1": 0.4931506849315069,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two pieces of information:\n\n1. The total number of heads is 20.\n2. The total number of legs"
+        }
+      }
+    },
+    {
+      "prompt": "You have 8 balls, one slightly heavier. Using a balance scale only twice, find the heavy ball. Explain your strategy step by step.",
+      "difficulty": "hard",
+      "alone_f1": 0.36414565826330536,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        }
+      }
+    },
+    {
+      "prompt": "Write a Python function that takes a list of integers and returns the length of the longest increasing subsequence.",
+      "difficulty": "hard",
+      "alone_f1": 0.5089820359281437,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        }
+      }
+    },
+    {
+      "prompt": "Explain the causes and consequences of the 2008 financial crisis in a coherent narrative.",
+      "difficulty": "hard",
+      "alone_f1": 0.3465703971119134,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        }
+      }
+    },
+    {
+      "prompt": "A patient presents with sudden onset chest pain, diaphoresis, and jaw pain. Walk through the differential diagnosis and initial workup.",
+      "difficulty": "hard",
+      "alone_f1": 0.15053763440860216,
+      "forced": {
+        "10%": {
+          "f1": 0.6138613861386139,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        },
+        "15%": {
+          "f1": 0.6138613861386139,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        },
+        "25%": {
+          "f1": 0.6138613861386139,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        },
+        "40%": {
+          "f1": 0.6138613861386139,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        }
+      }
+    },
+    {
+      "prompt": "Compare and contrast photosynthesis and cellular respiration. Explain how they are complementary.",
+      "difficulty": "hard",
+      "alone_f1": 0.2456140350877193,
+      "forced": {
+        "10%": {
+          "f1": 0.8208955223880596,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        },
+        "15%": {
+          "f1": 0.8208955223880596,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        },
+        "25%": {
+          "f1": 0.8208955223880596,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        },
+        "40%": {
+          "f1": 0.8208955223880596,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        }
+      }
+    }
+  ],
+  "1.5B": [
+    {
+      "prompt": "What is the capital of France?",
+      "difficulty": "easy",
+      "alone_f1": 1.0,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 7,
+          "text": "The capital of France is Paris."
+        }
+      }
+    },
+    {
+      "prompt": "What does DNA stand for?",
+      "difficulty": "easy",
+      "alone_f1": 0.3846153846153846,
+      "forced": {
+        "10%": {
+          "f1": 0.20833333333333334,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that contains the genetic instructions used in the development and functioning of all known living organisms and many viruses. DNA consists of tw"
+        },
+        "15%": {
+          "f1": 0.20833333333333334,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that contains the genetic instructions used in the development and functioning of all known living organisms and many viruses. DNA consists of tw"
+        },
+        "25%": {
+          "f1": 0.20833333333333334,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that contains the genetic instructions used in the development and functioning of all known living organisms and many viruses. DNA consists of tw"
+        },
+        "40%": {
+          "f1": 0.20833333333333334,
+          "n_anchors": 11,
+          "text": "DNA stands for deoxyribonucleic acid. It is a molecule that contains the genetic instructions used in the development and functioning of all known living organisms and many viruses. DNA consists of tw"
+        }
+      }
+    },
+    {
+      "prompt": "A farmer has chickens and cows. He counts 20 heads and 56 legs. How many chickens does he have?",
+      "difficulty": "hard",
+      "alone_f1": 0.1262135922330097,
+      "forced": {
+        "10%": {
+          "f1": 0.5070422535211268,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two equations:\n\n1. The total number of heads (which is the same as the total number of anim"
+        },
+        "15%": {
+          "f1": 0.5070422535211268,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two equations:\n\n1. The total number of heads (which is the same as the total number of anim"
+        },
+        "25%": {
+          "f1": 0.5070422535211268,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two equations:\n\n1. The total number of heads (which is the same as the total number of anim"
+        },
+        "40%": {
+          "f1": 0.5070422535211268,
+          "n_anchors": 24,
+          "text": "Let's denote the number of chickens as $C$ and the number of cows as $K$.\n\nAccording to the problem, we have two equations:\n\n1. The total number of heads (which is the same as the total number of anim"
+        }
+      }
+    },
+    {
+      "prompt": "You have 8 balls, one slightly heavier. Using a balance scale only twice, find the heavy ball. Explain your strategy step by step.",
+      "difficulty": "hard",
+      "alone_f1": 0.3423913043478261,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 203,
+          "text": "1. Divide the 8 balls into two groups of 3 balls each, leaving one ball aside.\n2. Place one of the groups on the left side of the balance scale and the other group on the right side.\n3. Observe the ba"
+        }
+      }
+    },
+    {
+      "prompt": "Write a Python function that takes a list of integers and returns the length of the longest increasing subsequence.",
+      "difficulty": "hard",
+      "alone_f1": 0.48632218844984804,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 255,
+          "text": "Here's a Python implementation of the function:\n\n```python\ndef longest_increasing_subsequence(nums):\n    dp = [1] * len(nums)\n    for i in range(1, len(nums)):\n        for j in range(i):\n            i"
+        }
+      }
+    },
+    {
+      "prompt": "Explain the causes and consequences of the 2008 financial crisis in a coherent narrative.",
+      "difficulty": "hard",
+      "alone_f1": 0.2621722846441948,
+      "forced": {
+        "10%": {
+          "f1": 0.8607594936708861,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        },
+        "15%": {
+          "f1": 0.8607594936708861,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        },
+        "25%": {
+          "f1": 0.8607594936708861,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        },
+        "40%": {
+          "f1": 0.8607594936708861,
+          "n_anchors": 83,
+          "text": "The 2008 financial crisis was a global economic downturn that began in the United States and spread throughout the world. The crisis was caused by a combination of factors, including the housing bubbl"
+        }
+      }
+    },
+    {
+      "prompt": "A patient presents with sudden onset chest pain, diaphoresis, and jaw pain. Walk through the differential diagnosis and initial workup.",
+      "difficulty": "hard",
+      "alone_f1": 0.17582417582417584,
+      "forced": {
+        "10%": {
+          "f1": 1.0,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        },
+        "15%": {
+          "f1": 1.0,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        },
+        "25%": {
+          "f1": 1.0,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        },
+        "40%": {
+          "f1": 1.0,
+          "n_anchors": 56,
+          "text": "The differential diagnosis includes acute myocardial infarction, angina pectoris, pulmonary emboli, pleurisy, and, based to the jaw pain, aortic dissection. The initial workup should include a cardiac"
+        }
+      }
+    },
+    {
+      "prompt": "Compare and contrast photosynthesis and cellular respiration. Explain how they are complementary.",
+      "difficulty": "hard",
+      "alone_f1": 0.2288135593220339,
+      "forced": {
+        "10%": {
+          "f1": 0.7692307692307693,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        },
+        "15%": {
+          "f1": 0.7692307692307693,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        },
+        "25%": {
+          "f1": 0.7692307692307693,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        },
+        "40%": {
+          "f1": 0.7692307692307693,
+          "n_anchors": 67,
+          "text": "Photosynthesis and cellular respiration are two complementary processes that occur in plants and animals. During photosynthesis, plants use sunlight dioxide and water to produce glucose and oxygen. Du"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+INVERSE SPECULATION — SUPPLEMENTARY RESULTS
+============================================================
+
+1. COMPONENT TIMING
+----------------------------------------
+  DLM per-step:        42.0 ms
+  AR per-token:        18.25 ms
+  1 DLM step = 2 AR tokens
+  Pipeline @13+100AR:  2371 ms
+  Dream full @128:     5383 ms
+  Speedup:             2.3×
+
+  Dream timing by step count:
+    @ 13 steps: 0.552s (±0.005s, 42.4 ms/step)
+    @ 19 steps: 0.804s (±0.006s, 42.3 ms/step)
+    @ 32 steps: 1.348s (±0.006s, 42.1 ms/step)
+    @ 51 steps: 2.142s (±0.008s, 42.0 ms/step)
+    @128 steps: 5.383s (±0.031s, 42.1 ms/step)
+
+  Qwen-0.5B: 18.25 ms/token (±0.86)
+
+2. COMPRESSION BASELINE
+----------------------------------------
+  Mean output: 256 tokens
+  Full text raw:    468 bytes
+  Full text gzip:   234 bytes
+  Anchors @10% bin: 511 bytes
+  Anchors @25% bin: 511 bytes
+
