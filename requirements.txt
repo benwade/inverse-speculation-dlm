@@ -1,0 +1,14 @@
+# Inverse Speculation — Cloud Experiment Requirements
+# Install on A100 instance before running any experiment scripts:
+#   pip install -r requirements.txt
+#
+# NOTE: transformers==4.46.2 is required specifically for Dream-7B.
+#       Other versions may fail on trust_remote_code=True.
+
+transformers==4.46.2
+torch>=2.5.1
+accelerate>=0.26.0
+bitsandbytes>=0.43.0
+datasets>=2.18.0
+scipy>=1.12.0
+numpy>=1.26.0
