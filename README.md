@@ -1,5 +1,8 @@
 # Inverse Speculation: Structural Anchoring from Diffusion Language Models for Edge-Scale Generation
-
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Reproducible](https://img.shields.io/badge/reproducible-yes-brightgreen)
+![Status](https://img.shields.io/badge/status-preprint-lightgrey)
 **Ben Wade** · Walden University · [ORCID 0009-0009-5857-7447](https://orcid.org/0009-0009-5857-7447)
 
 📄 **[Read the paper](inverse_speculation.pdf)**
