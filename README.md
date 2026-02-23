@@ -101,6 +101,12 @@ pip install -r requirements.txt
 python run_full_suite.py --subset 5   # smoke test
 ```
 
+**Minimal example (1 prompt per benchmark, ~2 min):**
+
+```bash
+python run_full_suite.py --subset 1
+```
+
 > **Note:** `transformers==4.46.2` is required for Dream-7B compatibility.
 
 ---
@@ -113,6 +119,22 @@ python run_full_suite.py --subset 5   # smoke test
 | [Qwen/Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) | Primary gap-filler | ~1 GB |
 | [Qwen/Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) | Secondary gap-filler | ~3 GB |
 | [Qwen/Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct) | Bridge viability probe | ~20 GB (4-bit) |
+
+### Model Download Details
+
+**Dream-7B** (`Dream-org/Dream-v0-Instruct-7B`)
+- Checkpoint: `Dream-v0-Instruct-7B` (bf16, ~14 GB)
+- Requires `transformers==4.46.2` and `trust_remote_code=True`
+- Tokenizer: shared with Qwen family — no mapping required for Qwen gap-fillers
+- Download: `AutoModel.from_pretrained("Dream-org/Dream-v0-Instruct-7B", trust_remote_code=True)`
+
+**Qwen gap-fillers** (`Qwen/Qwen2.5-0.5B-Instruct`, `Qwen/Qwen2.5-1.5B-Instruct`)
+- Standard HuggingFace download, no special flags required
+- Dream-7B and Qwen2.5 share compatible tokenizer vocabularies — forced decoding works without token translation
+
+**All three models together:** ~18 GB VRAM — fits comfortably on a single A100-80GB.
+
+See [cloud_setup.md](cloud_setup.md) for the full download script.
 
 ---
 
