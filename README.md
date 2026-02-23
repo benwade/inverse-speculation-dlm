@@ -2,6 +2,8 @@
 
 **Ben Wade** · Walden University · [ORCID 0009-0009-5857-7447](https://orcid.org/0009-0009-5857-7447)
 
+📄 **[Read the paper](inverse_speculation.pdf)**
+
 ---
 
 ## Overview
@@ -38,12 +40,19 @@ Evaluated on 190 prompts across MMLU, ARC, GSM8K, and HumanEval:
 
 ```
 inverse-speculation-dlm/
+├── inverse_speculation.pdf  ← Paper
 ├── README.md
 ├── requirements.txt
-├── cloud_setup.md          ← RunPod/Vast.ai setup instructions
-└── experiments/
-    ├── run_full_suite.py   ← Main experiment (Phase A/B/C + ablation)
-    └── bridge_viability.py ← Layer-depth vs anchor quality (32B probe)
+├── cloud_setup.md           ← RunPod/Vast.ai setup instructions
+├── run_full_suite.py        ← Main experiment (Phase A/B/C + ablation)
+├── bridge_viability.py      ← Layer-depth vs anchor quality (32B probe)
+└── results/
+    ├── dlm_anchor_results.json
+    ├── ablation_anchors.json
+    ├── gap_only_full.json
+    ├── llm_size_results.json
+    ├── supplement_timing.json
+    └── supplement_summary.txt
 ```
 
 ---
